@@ -57,5 +57,6 @@ def total_gross(source)
     tot += dirtot[list[i]]
     i += 1
   end
+  puts tot
   return tot
 end
