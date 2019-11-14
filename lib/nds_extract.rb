@@ -50,6 +50,8 @@ def total_gross(source)
   i = 0
   tot = 0
   while 0 < list.count do
+    puts list[i]
+    puts dirtot[list[i]]
     tot += dirtot[list[i]]
     i += 1
   end
