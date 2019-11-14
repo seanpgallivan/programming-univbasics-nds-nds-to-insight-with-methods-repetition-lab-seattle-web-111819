@@ -32,7 +32,6 @@ def list_of_directors(source)
     list << source[i][:name]
     i += 1
   end
-  puts list
   return list
 end
 
@@ -48,11 +47,9 @@ def total_gross(source)
   # return the total
   list = list_of_directors(source)
   dirtot = directors_totals(source)
-  puts dirtot
   i = 0
   tot = 0
   while 0 < list.count do
-    puts list[i]
     puts dirtot[list[i]]
     tot += dirtot[list[i]]
     i += 1
