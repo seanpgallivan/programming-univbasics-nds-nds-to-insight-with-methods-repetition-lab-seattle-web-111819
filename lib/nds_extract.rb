@@ -49,12 +49,8 @@ def total_gross(source)
   dirtot = directors_totals(source)
   i = 0
   tot = 0
-  puts list.count
-  puts dirtot.count
-  while 0 < list.count do
-    puts dirtot[list[i]]
+  while i < list.count do
     tot += dirtot[list[i]]
-    puts tot
     i += 1
   end
   return tot
